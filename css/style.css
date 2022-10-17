@@ -5021,3 +5021,19 @@ button.btn-green {
 .narticles__item-top-wrap {
     align-items: center;
 }
+
+.blog-s__text .blog-s__image {
+    border-radius: 7px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-s__title {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.blog-s__text .blog-s-header__date {
+    color: inherit;
+}
