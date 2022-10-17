@@ -5037,3 +5037,7 @@ button.btn-green {
 .blog-s__text .blog-s-header__date {
     color: inherit;
 }
+
+.articles__related {
+    margin-top: 50px;
+}
