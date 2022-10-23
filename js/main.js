@@ -207,16 +207,18 @@
                 }
             });
         }*/
-
-        $('.banner-main__wrap').slick({
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            dots: true,
-            arrows: false,
-            autoplay: true,
-            autoplaySpeed: 2000
-        });
+        if ($('.banner-main__wrap').length > 0) {
+            $('.banner-main__wrap').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true,
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 2000
+            });
+        }
+        
 
         $(".menu-catalog-link, .catalogmenu").on({
             mouseenter: function () {
