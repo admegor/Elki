@@ -360,6 +360,10 @@ button.btn-green {
     display: flex;
     align-items: center;
     white-space: nowrap;
+    transition: color .3s ease-in;
+}
+.subheader__menu li a:hover {
+    color: #E93030;
 }
 .subheader__menu li a b {
     color: #E23F3F;
