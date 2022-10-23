@@ -220,7 +220,7 @@
         }
         
 
-        $(".menu-catalog-link, .catalogmenu").on({
+        $(".subheader__catalog, .catalogmenu").on({
             mouseenter: function () {
                 $(".catalogmenu").css("display", "block");
             },
