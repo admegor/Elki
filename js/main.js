@@ -220,7 +220,23 @@
         }
         
 
+<<<<<<< Updated upstream
         $(".subheader__catalog, .catalogmenu").on({
+=======
+        if($('.banner-main__wrap').length > 0) {
+            $('.banner-main__wrap').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true,
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 2000
+            });
+        }
+
+        $(".menu-catalog-link, .catalogmenu").on({
+>>>>>>> Stashed changes
             mouseenter: function () {
                 $(".catalogmenu").css("display", "block");
             },
@@ -254,6 +270,10 @@
             $(".faq__item").not($(this).closest(".faq__item")).removeClass("open-accordion");
             $(this).closest(".faq__item").toggleClass("open-accordion");
         });
+
+        $('.cart-item__price').toLocaleString('ru');
+
+        console.log(parseInt($('.cart-item__price').text()));
 
     });
 })(jQuery);
